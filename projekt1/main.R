@@ -2,7 +2,7 @@
 # Objective : evaluate susData from SUS questionnaire
 
 #loads .csv file into R session
-susData <- read.csv2("projekt1/SUSsvar18och20.csv")
+susData <- read.csv2("SUSsvar18och20.csv")
 
 #Builds a sequence of even numbers from 2 to column length of csv file
 even <- seq(2, ncol(susData),2)
